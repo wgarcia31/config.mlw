@@ -7,7 +7,7 @@ generic = {
 };
 
 features = {
-       ngram_len        = 200;
+       ngram_len        = 2;
        vect_embed       = "cnt";
        mist_level       = 2;
 };
@@ -23,7 +23,7 @@ classify = {
 };
 
 cluster = {
-       link_mode        = "complete";
+       link_mode        = "average";
        min_dist         = 1.3;
        reject_num       = 10;
        shared_ngrams    = 0;
