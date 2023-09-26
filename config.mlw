@@ -7,13 +7,16 @@ generic = {
 };
 
 features = {
-       ngram_len        = 2;
+       ngram_len        = 6000;
        vect_embed       = "cnt";
-       mist_level       = 2;
+       mist_level       = 1;
+       hash_seed1       = 514084890;
+       hash_seed2       = 1978915395;
+
 };
 
 prototypes = {
-       max_dist = 1.0;
+       max_dist = 0.5;
        max_num  = 0;
 };
 
@@ -23,11 +26,12 @@ classify = {
 };
 
 cluster = {
-       link_mode        = "average";
-       min_dist         = 1.2;
-       reject_num       = 100;
+       link_mode        = "complete";
+       min_dist         = 1.3;
+       reject_num       = 10;
        shared_ngrams    = 0;
 };
+
 
 
 
