@@ -7,9 +7,9 @@ generic = {
 };
 
 features = {
-       ngram_len        = 6000;
+       ngram_len        = 200;
        vect_embed       = "cnt";
-       mist_level       = 1;
+       mist_level       = 2;
        hash_seed1       = 514084890;
        hash_seed2       = 1978915395;
 
@@ -31,7 +31,6 @@ cluster = {
        reject_num       = 10;
        shared_ngrams    = 0;
 };
-
 
 
 
