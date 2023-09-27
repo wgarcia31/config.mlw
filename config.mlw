@@ -11,17 +11,13 @@ generic = {
 };
 
 features = {
-       ngram_len        = 4000;
+       ngram_len        = 2;
        vect_embed       = "cnt";
-       mist_level       = 1;
-       hash_seed1       = 514084890;
-       hash_seed2       = 1978915395;
-
 };
 
 prototypes = {
-       max_dist = 1.0;
-       max_num  = 100;
+       max_dist = 0;
+       max_num  = 0;
 };
 
 classify = {
@@ -31,9 +27,7 @@ classify = {
 
 cluster = {
        link_mode        = "complete";
-       min_dist         = 1.0;
-       reject_num       = 5;
-       shared_ngrams    = 0.00;
+       min_dist         = 0;
+       reject_num       = 0;
+       shared_ngrams    = 0;
 };
-
-
