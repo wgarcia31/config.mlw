@@ -1,3 +1,4 @@
+# MALHEUR (0.6.0) - Automatic Analysis of Malware Behavior
 # Copyright (c) 2009-2015 Konrad Rieck (konrad@mlsec.org)
 # University of Goettingen, Berlin Institute of Technology
 
@@ -10,7 +11,7 @@ generic = {
 };
 
 features = {
-       ngram_len        = 2000;
+       ngram_len        = 4000;
        vect_embed       = "cnt";
        mist_level       = 1;
        hash_seed1       = 514084890;
@@ -34,3 +35,5 @@ cluster = {
        reject_num       = 5;
        shared_ngrams    = 0.00;
 };
+
+
