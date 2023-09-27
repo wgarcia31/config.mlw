@@ -11,7 +11,7 @@ generic = {
 };
 
 features = {
-       ngram_len        = 1900;
+       ngram_len        = 2900;
        vect_embed       = "cnt";
 };
 
