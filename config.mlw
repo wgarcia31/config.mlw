@@ -11,7 +11,7 @@ generic = {
 };
 
 features = {
-       ngram_len        = 2900;
+       ngram_len        = 3100;
        vect_embed       = "cnt";
 };
 
@@ -31,3 +31,4 @@ cluster = {
        reject_num       = 10;
        shared_ngrams    = 0;
 };
+
